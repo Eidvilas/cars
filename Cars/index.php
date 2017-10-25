@@ -1,7 +1,20 @@
+<?php 
+    session_start();
+
+    if (isset($_SESSION['username']) && $_SESSION['level'] > 0) {
+        // vartotojas prisijungti
+    } else {
+        // svecias
+        header("Location: login.php");
+
+    }
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Regitra</title>
+    <title>Cars</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,9 +24,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <br/>
     <div class="container-fluid">
         <div id="header" class="row">
-            <h1>Regitra</h1>
+            
+            <div class="col"></div>
+            <div class="col"><h1>Cars journal</h1></div>
+            <div class="col"><a class="btn btn-info" href="register.php" >Register</a>&nbsp<a class="btn btn-info" href="logout.php" >Logout</a></div>
         </div>
     </div>
     <div class="container">
