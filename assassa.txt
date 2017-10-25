@@ -1,0 +1,110 @@
+FileZillla - FTP klientas, prisijungimui prie serverio
+WinSCP - FTP klientas, prisijungimui prie serverio
+
+deployHQ -susieja Github'a su hostingu
+dewployer - susieja Github'a su hostingu
+
+ignas.galuskinas@codeacademy.lt
+
+Sublime text
+
+1 uzsaivinu faila
+2. perkeliu i githuba
+3. 
+
+
+Command Prompt:
+1. (go to C:/) cd /
+2. cd wamp64/www/hey.lt
+git init
+3. git status
+4. git add .
+5. git commit -m "pirmas comit"
+6. git push
+
+Phpstorm :
+Ctrl+Q - documentation
+Ctrl+space
+
+WMware Workstation Player - virtualios operacines sistemos.
+VestaCP -hostingo sistema
+
+React -Javascript frameworks
+Angular
+VueJS
+jQuery
+
+ID / Class /  Tagname (get elements by tagname)
+InnerHTML
+TbaleInsertRow 
+
+Dvieju paveiksliiuku ir pakeiciamo vaizdo per src
+
+
+$rezultatas = condition ? "true" : "false";
+
+CMD commander:
+
+dir - parodo direktorijas
+cd Desktop - ieina i direktorija
+cd .. - vienu laipteliu aukstyn
+cd \ - grizta i C diska
+e: - pereina i e diska
+clear - isvalo ekrana
+php - paleisti php
+CTRL + c -iseiti is php
+git clone - klonuoti su git'u
+/n - <br>
+
+$argv - global parameter
+
+Commanderyje paduodama pvz. suma 2 3
+array_shift($argv); - ismeta pirmaji elementa, kuris yra index.php
+$funcName = array_shift($argv); - ismeta antraji elementa, kuris yra 'suma' ir ji panaudoja issikvieciant funkcija;
+call_user_func_array($pav, $masyvas) - reikalingas, norint iskviesti funkcija commanderyje
+
+
+
+
+
+
+
+
+
+
+
+get element by attribute name
+
+console.log
+
+keypress
+
+
+document.getElementVtTagName('button)[0].classList.remove("btn-primary");
+					
+.style.display("none")
+
+document.getElementById('sriubos").value
+
+chart.js - canvas javascript grafikai
+
+traversing -jQuery
+
+JS tables - lenteliu surikiavimo gemeratorius  datatables.net or dynatable.com
+
+
+SASS
+Bootstrap
+Font Awesome
+Javascript
+Canvas
+Hostingas
+
+htmlentities - isvengti hackeriu iterpiamo teksto;
+<=> // grazina -1 (mziau) 0 (lygu) arba 1 (dauigiau);
+PHP ifelse shorthands
+Swtich function
+CMD: php blah.php
+
+
+tikrinam ar pass sutampa (jquery), jei sutampa -> submitinam forma -> tikrinam ar yra toks vartotojas (user exists) -> 
